@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/banner_fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ul {
+    list-style: none;
+    color: #FFFFFF;;    
+}
+button {
+    cursor: pointer;
+}
+body, h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.mobile{
+    display: none;
+}
+@media screen and (max-width: 400px) {
+    .mobile{
+        display: block;
+    }
+    .hero__title{
+        font-size: 30px;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .hero__title{
+        color: red;
+        background: white;
+    }
+}
