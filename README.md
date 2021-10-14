@@ -1,2 +1,1 @@
-# wines
-lesson
+# myFirstDesign

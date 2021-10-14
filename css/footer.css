@@ -1,0 +1,16 @@
+.footer__content{
+    max-width: 100%;    
+    margin-top: 143px;    
+    background-color: #3E3E3E;    
+    align-items: center;
+    justify-content: space-between;    
+}
+.footer__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 99px;
+    margin-right: 48px;
+}
